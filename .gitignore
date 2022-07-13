@@ -4,5 +4,6 @@
 .Ruserdata
 
 data
+!src/data
 results/NN
 results/NN.rds
