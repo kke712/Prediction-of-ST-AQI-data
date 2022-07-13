@@ -1,10 +1,14 @@
-# Spatio-Temporal Interpolation for AQI data
+#Spatio-Temporal Interpolation for AQI data
 
 The datasets and code for "Spatio-Temporal Interpolation for AQI data".
 
 ## Requirments
 
-TBA.
+```bash
+requirements
+├── conda.txt     # (optional) conda packages for NN model
+└── pip.txt       # (optional) pip packages for NN model
+```
 
 ## Contact
 
