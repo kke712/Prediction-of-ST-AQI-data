@@ -29,9 +29,11 @@ The following table displays (50%, 75%) quantile of RMSE using three methods. Ea
 | NN  |  (9.3418, 11.6526) |  (10.1430, 11.4923)  |  (11.1114, 12.7896)  |
 | RF  | (4.3464, 5.0956)  | (6.6421, 8.1415)  |  (8.5955, 9.8522)  |
 
-The following figures show the performance of the models.
+The following figure shows the plot between prediction and real value of PM2.5 using three methods ST, NN, and RF model(from top to bottom). 
 
 ![Plot between prediction and real value of PM2.5 using three methods ST, NN, and RF model(from top to bottom). The left column of the plot is 1-step forecasting. The middle column of the plot is 3-step forecasting. The right column of the plot is 6-step forecasting.](results/Fig1.png)
+
+The following figure is a boxplot of RMSE for each methods.
 
 ![Boxplot of RMSE for each method. Prediction is proceed for 1-step, 3-step, and 6-step(from left to right)](results/Fig2.png)
 
