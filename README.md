@@ -4,10 +4,35 @@ The datasets and code for "Spatio-Temporal Interpolation for AQI data".
 
 ## Requirments
 
+* python
 ```bash
-requirements
-├── conda.txt     # (optional) conda packages for NN model
-└── pip.txt       # (optional) pip packages for NN model
+requirements # (optional) python packages for NN model
+|-- conda.txt
+`-- pip.txt
+```
+
+* R
+```R
+list.of.packages <- c(
+    "tidyverse",
+    "lubridate",
+    "purrr",
+    "phylin",
+    "progress",
+    "parallel",
+    "randomForest",
+    "tictoc",
+    "spacetime",
+    "FRK",
+    "INLA",
+    "foreach",
+    "doParallel",
+    "Metrics"
+)
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[, "Package"])]
+if (length(new.packages)) {
+    install.packages(new.packages)
+}
 ```
 
 ## Contact
