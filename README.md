@@ -42,3 +42,7 @@ Should you have any queries or suggestions (all welcome), you should contact eit
 - [Kyeongeun Kim](mailto:kke712@snu.ac.kr)
 - [Kyeongwon Lee](mailto:lkw1718@snu.ac.kr)
 - [Miru Ma](mailto:mamilu63178@naver.com)
+
+## LICENSE
+
+TBA.
