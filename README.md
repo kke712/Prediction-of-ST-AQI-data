@@ -10,6 +10,6 @@ TBA.
 
 Should you have any queries or suggestions (all welcome), you should contact either:
 
-- Kyeongeun Kim
+- [Kyeongeun Kim](mailto:kke712@snu.ac.kr)
 - [Kyeongwon Lee](mailto:lkw1718@snu.ac.kr)
-- Miru Ma
+- [Miru Ma](mailto:mamilu63178@naver.com)
