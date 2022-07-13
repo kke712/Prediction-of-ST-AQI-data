@@ -98,23 +98,23 @@ colnames(nn_6)[3] <- "predPM25"
 layout(matrix(c(1:9), 3,3, byrow=T))
 layout.show(9)
 
-plot(PM25~predPM25,data=ds_1, xlab="prediction using ST-model", ylab="real value", main="+ 1h")
+plot(PM25~predPM25,data=ds_1, xlab="prediction using ST", ylab="real value", main="+ 1h")
 abline(a=0, b=1)
 
-plot(PM25~predPM25,data=ds_3, xlab="prediction using ST-model", ylab="real value", main="+ 3h")
+plot(PM25~predPM25,data=ds_3, xlab="prediction using ST", ylab="real value", main="+ 3h")
 abline(a=0, b=1)
 
-plot(PM25~predPM25,data=ds_6, xlab="prediction using ST-model", ylab="real value", main="+ 6h")
+plot(PM25~predPM25,data=ds_6, xlab="prediction using ST", ylab="real value", main="+ 6h")
 abline(a=0, b=1)
 
 ##nn
-plot(PM25~predPM25,data=nn_1, xlab="prediction using NN model", ylab="real value", main="+ 1h")
+plot(PM25~predPM25,data=nn_1, xlab="prediction using NN", ylab="real value", main="+ 1h")
 abline(a=0, b=1)
 
-plot(PM25~predPM25,data=nn_3, xlab="prediction using NN model", ylab="real value", main="+ 3h")
+plot(PM25~predPM25,data=nn_3, xlab="prediction using NN", ylab="real value", main="+ 3h")
 abline(a=0, b=1)
 
-plot(PM25~predPM25,data=nn_6, xlab="prediction using NN model", ylab="real value", main="+ 6h")
+plot(PM25~predPM25,data=nn_6, xlab="prediction using NN", ylab="real value", main="+ 6h")
 abline(a=0, b=1)
 
 
