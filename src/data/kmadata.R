@@ -25,9 +25,11 @@ library(lubridate)
 # 지면상태(지면상태코드) -> groudstate
 # 지면온도 -> groundtemp
 
-kma18 <- read.csv("data/kma/kma_2018.csv")
-kma19 <- read.csv("data/kma/kma_2019.csv")
+# kma18 <- read.csv("data/kma/kma_2018.csv")
+# kma19 <- read.csv("data/kma/kma_2019.csv")
 kma20 <- read.csv("data/kma/kma_2020.csv")
 
-kmadata <- rbind(kma18, kma19, kma20)
+# kmadata <- rbind(kma18, kma19, kma20)
+kmadata <- kma20
+
 saveRDS(kmadata, "data/kmadata.rds")

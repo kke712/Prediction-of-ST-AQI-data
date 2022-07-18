@@ -4,6 +4,7 @@
 .Ruserdata
 
 data
+!data/testind_May.rds
 !src/data
 results/NN
 results/NN.rds

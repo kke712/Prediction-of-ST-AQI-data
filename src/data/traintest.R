@@ -30,7 +30,7 @@ kma_hourly <- readRDS("./data/kmadata.rds") %>%
         datetime, loc, temp, prec, windspeed, winddirection,
         humidity, vaporpres, Lpres, Bpres
     )
-observatory_kma <- readRDS("./data/observatory_kma.rds")
+observatory_kma <- read.csv("./data/observatory_kma.csv")
 observatory_airkorea <- read.csv("./data/observatory_airkorea.csv")
 observatory_airkorea <- observatory_airkorea %>%
     select(station, log, lat) %>%
