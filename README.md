@@ -4,6 +4,18 @@ The source code for "Spatio-Temporal Interpolation for AQI data".
 
 ## Data 
 
+```bash 
+data
+|-- airkorea                  # raw data - airkorea
+|-- airkorea.rds              # preprocessed data (src/data/airkorea.R)
+|-- csv                       # train/test data (src/data/traintest.R)
+|-- kma                       # raw data - kma
+|-- kmadata.rds               # preprocessed data (src/data/kmadata.R)
+|-- observatory_airkorea.csv  # raw data - airkorea stataion
+|-- observatory_kma.csv       # raw data - kma station
+`-- testind_May.rds           # test index (src/data/traintest.R)
+```
+
 ### Raw Data 
 
 Due to copyright issues, raw data are not provided. You can download the files from the following urls.
