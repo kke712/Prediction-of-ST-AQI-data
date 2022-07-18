@@ -6,7 +6,10 @@ library(spacetime)
 library(FRK)
 library(INLA)
 
+######### download from https://drive.google.com/file/d/1o0-Qfhy0Q3eFamWOsYDjhtjOnMT1436Z/view?usp=sharing
 coordinate_dat <- read.csv("coordinate.csv") ##Use 30 stations of the true stations in simulation 
+
+######### download from https://drive.google.com/file/d/1Lrrwrq_USoNls3lExFmAK72bqKyFwoqG/view?usp=sharing
 load("results_for_simulation.Rdata") ##Use the results of the real data analysis
 
 #### generate train_1.csv 
