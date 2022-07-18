@@ -22,10 +22,13 @@ Due to copyright issues, raw data are not provided. You can download the files f
 * Airkorea station data (`data/observatory_airkorea.csv`): 에어코리아 [대기환경 월간/연간 보고서](https://www.airkorea.or.kr/web/detailViewDown?pMENU_NO=125)  (station: 지점, lat: 위도, log: 경도)
 
 ```
-"station","log","lat"
-111121,126.9747,37.5643
-111123,127.005,37.572
-111131,127.0048,37.54
+r$> observatory_airkorea %>% head()
+station      log     lat
+111121  126.9747 37.5643
+111123  127.0050 37.5720
+111131  127.0048 37.5400
+111141  127.0925 37.5472
+111142  127.0419 37.5432
 ```
 
 * Weather data (`data/kma/*.csv`): 대한민국 기상청 [종관기상관측(ASOS) 자료](https://data.kma.go.kr/data/grnd/selectAsosRltmList.do)
@@ -43,13 +46,16 @@ loc       datetime temp prec windspeed winddirection humidity vaporpres DPtemp  
 * KMA station data (`data/observatory_kma.csv`): 대한민국 기상청 [관측지점정보 자료](https://data.kma.go.kr/tmeta/stn/selectStnList.do) (index: 지점, lat: 위도, lon: 경도)
 
 ```
-"index","lat","lon"
-90,38.2509,128.5647
-93,37.9474,127.7544
-95,38.1479,127.3042
-98,37.9019,127.0607
-99,37.8859,126.7665
+index     lat      lon
+   90 38.2509 128.5647
+   93 37.9474 127.7544
+   95 38.1479 127.3042
+   98 37.9019 127.0607
+   99 37.8859 126.7665
+   99 37.8859 126.7665
 ```
+
+or use simultion data
 
 ### Preprocessing 
 
