@@ -6,8 +6,10 @@ The source code for "Spatio-Temporal Interpolation for AQI data".
 
 ### Raw Data 
 
-* Air pollution data: [에어코리아 최종확정 측정자료 조회](https://www.airkorea.or.kr/web/last_amb_hour_data?pMENU_NO=123)
-* Weather data: 대한민국 기상청
+Due to copyright issues, raw data are not provided. You can download the files from the following urls.
+
+* Air pollution data (`data/airkorea/*.csv`): [에어코리아 최종확정 측정자료 조회](https://www.airkorea.or.kr/web/last_amb_hour_data?pMENU_NO=123)
+* Weather data (`data/kma/*.csv`): [대한민국 기상청](https://data.kma.go.kr/data/grnd/selectAsosRltmList.do)
 
 ### Preprocessing 
 
