@@ -161,9 +161,3 @@ train_list <- lapply(train_test_list, function(x) x$train)
 test_list <- lapply(train_test_list, function(x) x$test)
 saveRDS(train_list, file = "./data/train_list.rds")
 saveRDS(test_list, file = "./data/test_list.rds")
-
-# to csv
-for (i in seq_len(length(testind))) {
-    write.csv(train_list[[i]], paste0("./data/csv/train_", i, ".csv"))
-    write.csv(test_list[[i]], paste0("./data/csv/test_", i, ".csv"))
-}

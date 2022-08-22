@@ -73,6 +73,9 @@ or use simultion data
 
 see `src/data` directory (written in `R`).
 
+* We use the IDW transform to interpolate the KMA dataset to match the AirKorea dataset (`src/data/traintest.R`), and
+* normalize explanatory variables (`src/data/normalize`)
+
 ## Models 
 
 * Random Effects with Spatio-Temporal Basis Functions: see `src/model/ST` directory (written in `R`).
@@ -124,7 +127,8 @@ list.of.packages <- c(
     "INLA",
     "foreach",
     "doParallel",
-    "Metrics"
+    "Metrics",
+    "caret"
 )
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[, "Package"])]
 if (length(new.packages)) {
